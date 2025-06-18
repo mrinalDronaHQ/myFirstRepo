@@ -1,17 +1,16 @@
 {
     "__dhq_default_formula_Dtype": "string",
-    "__dhq_formula_Dtype": "object",
+    "__dhq_formula_Dtype": "string",
     "__dhq_keywords_mapping_Dtype": "object",
-    "__LiveData_Dtype": "object",
-    "add_orderby_toggle": false,
+    "__LiveData_Dtype": "string",
     "allow_options_addition_in_editor": true,
+    "auto_refresh": true,
     "caching": false,
-    "cid": "c70RrVxNeFiFwB9zgT4V",
+    "cid": "c44RfJLzU0P1a4zTs2CE",
     "class_name": "test",
     "ctrl_id": "",
     "data_submission_enabled": true,
-    "data_type": "",
-    "database": "nosql",
+    "data_type": "string",
     "dfmv_selected": "default",
     "dhq_config": {
         "strict_update": [
@@ -20,11 +19,17 @@
             "show_new_property"
         ],
         "update_to_theme_varaibles": [
-            "theme_color",
             "label_font_size",
             "label_font_size_unit",
             "label_font_weight",
-            "label_text_color"
+            "label_text_color",
+            "title_font_weight",
+            "title_text_color",
+            "title_font_size",
+            "letter_spacing",
+            "letter_spacing_unit",
+            "line_height_unit",
+            "line_height"
         ]
     },
     "dhq_data_process": "",
@@ -33,15 +38,6 @@
     "dhq_external_css": {
         "addCode": false,
         "data": {}
-    },
-    "dhq_git_data_type_config": {
-        "string": [
-            "schema",
-            "dynamic_operator"
-        ],
-        "object": [],
-        "number": [],
-        "boolean": []
     },
     "dhq_nsf_replaced": false,
     "dhq_olddt_map": {},
@@ -52,96 +48,41 @@
     "dhq_tfd": true,
     "dhqEvtConverted": true,
     "dhqGrid": {
-        "w": 9,
-        "h": 40,
+        "w": 6,
+        "h": 8,
         "x": 4,
-        "y": 13
+        "y": 0
     },
     "dhqGridChanged": false,
     "dhqGridDesktop": {
-        "w": 9,
-        "h": 40,
+        "w": 6,
+        "h": 8,
         "x": 4,
-        "y": 13
+        "y": 0
     },
     "disabled": false,
-    "dynamic_operator": [
-        {
-            "label": "$All",
-            "value": "$all"
-        },
-        {
-            "label": "$Size",
-            "value": "$size"
-        },
-        {
-            "label": "$Type",
-            "value": "$type",
-            "type": "string"
-        }
-    ],
+    "display_label": "Value",
     "field_available_in_database_editor": false,
-    "field_composition_type": "composite",
+    "field_composition_type": "single",
     "field_config": {},
     "field_data_model": "",
     "field_data_model_binding_formula": "",
-    "field_data_model_binding_manual_query": {
-        "schema": "DATABUILDER()"
-    },
-    "field_data_model_binding_manual_query_with_id": {
-        "schema": "DATABUILDER()"
-    },
-    "field_data_model_binding_type": "manual_query",
-    "field_database_editor_data_format": "",
-    "field_datatypes": [
-        {
-            "field": "rawjson",
-            "display_name": "Raw_JSON",
-            "data_type": "string",
-            "field_database_editor_data_format": "single_line_text"
-        },
-        {
-            "field": "query",
-            "display_name": "Query",
-            "data_type": "string",
-            "field_database_editor_data_format": "single_line_text"
-        },
-        {
-            "field": "schema",
-            "display_name": "Schema",
-            "data_type": "string",
-            "field_database_editor_data_format": "single_line_text"
-        }
-    ],
-    "field_display_key_name": "querybuilder",
-    "field_editable_in_database_editor": false,
+    "field_data_model_binding_manual_query": "DATABUILDER()",
+    "field_data_model_binding_manual_query_with_id": "DATABUILDER()",
+    "field_data_model_binding_type": "",
+    "field_database_editor_data_format": "multi_line_text",
+    "field_datatypes": [],
+    "field_display_key_name": "text",
+    "field_editable_in_database_editor": true,
     "field_fullview": false,
-    "field_key_name": "dhq_query_builder_c70RrVxNeFiFwB9zgT4V",
+    "field_key_name": "Paragraph_c44RfJLzU0P1a4zTs2CE",
     "field_options": {},
     "field_responsive": false,
-    "field_type": "dhq_query_builder",
+    "field_type": "Paragraph",
     "field_values_addition_enabled_in_database_editor": true,
     "field_values_source": "",
     "for_localization": {
-        "static_msgs": [
-            "Please check schema JSON",
-            "Schema cannot be empty",
-            "Invalid JSON format. Please provide valid JSON.",
-            "Ascending",
-            "Descending",
-            "Is Null",
-            "Is Not Null",
-            "In",
-            "Not In",
-            "Like",
-            "AND",
-            "OR",
-            "Rule",
-            "Group",
-            "Order By",
-            "Apply",
-            "Clear"
-        ],
+        "static_msgs": [],
         "dynamic_msgs_keys": [
             "label",
             "tooltip",
@@ -169,32 +110,38 @@
     "isDhqGridCtrl": true,
     "isDhqHideOnDesktop": false,
     "isDhqHideOnMobile": false,
-    "label": "Query Builder",
+    "label": "Text",
     "label_font_size": "var(--DHQ-control-title)",
     "label_font_size_unit": "",
     "label_font_weight": "var(--DHQ-bold)",
     "label_font_weight_class": "font-weight-normal",
-    "label_hidden": false,
+    "label_hidden": true,
     "label_left_width": "33",
     "label_left_width_unit": "%",
     "label_position": "top",
     "label_text_alignment": "left",
     "label_text_color": "var(--DHQ-primary-font-color)",
+    "letter_spacing": "0",
+    "letter_spacing_unit": "px",
+    "line_height": "1.5",
+    "line_height_unit": "rem",
+    "paragraph_data": "",
     "required": false,
-    "sb_mode": {
-        "schema": "JS"
-    },
-    "schema": "",
+    "sb_mode": "JS",
     "show_description": false,
     "show_dfm": false,
     "show_new_property": true,
     "show_tooltip": false,
-    "sid": "sc70RrVxNeFiFwB9zgT4V",
+    "sid": "sc44RfJLzU0P1a4zTs2CE",
     "tabIndex": "",
-    "theme_color": "var(--DHQ-primary-color)",
     "tip_description": "",
+    "title_font_size": "var(--DHQ-normal-font)",
+    "title_font_size_unit": "",
+    "title_font_weight": "var(--DHQ-normal-weight)",
+    "title_text_alignment": "left",
+    "title_text_color": "var(--DHQ-primary-font-color)",
     "tooltip": "",
-    "type": "input",
+    "type": "non_input",
     "unique_name_change": false,
     "visibility": true,
     "wrapper_content_alignment": "flex-start"
