@@ -1,15 +1,17 @@
 {
     "__dhq_default_formula_Dtype": "string",
-    "__dhq_formula_Dtype": "string",
+    "__dhq_formula_Dtype": "object",
+    "__dhq_keywords_mapping_Dtype": "object",
+    "__LiveData_Dtype": "object",
     "add_orderby_toggle": false,
     "allow_options_addition_in_editor": true,
     "caching": false,
-    "cid": "c31RHw7AUyfHtuiaiVR9",
+    "cid": "c70RrVxNeFiFwB9zgT4V",
     "class_name": "test",
     "ctrl_id": "",
     "data_submission_enabled": true,
     "data_type": "",
-    "database": "sql",
+    "database": "nosql",
     "dfmv_selected": "default",
     "dhq_config": {
         "strict_update": [
@@ -52,15 +54,15 @@
     "dhqGrid": {
         "w": 9,
         "h": 40,
-        "x": 3,
-        "y": 14
+        "x": 4,
+        "y": 8
     },
     "dhqGridChanged": false,
     "dhqGridDesktop": {
         "w": 9,
         "h": 40,
-        "x": 3,
-        "y": 14
+        "x": 4,
+        "y": 8
     },
     "disabled": false,
     "dynamic_operator": [
@@ -83,9 +85,13 @@
     "field_config": {},
     "field_data_model": "",
     "field_data_model_binding_formula": "",
-    "field_data_model_binding_manual_query": "",
-    "field_data_model_binding_manual_query_with_id": "",
-    "field_data_model_binding_type": "",
+    "field_data_model_binding_manual_query": {
+        "schema": "DATABUILDER()"
+    },
+    "field_data_model_binding_manual_query_with_id": {
+        "schema": "DATABUILDER()"
+    },
+    "field_data_model_binding_type": "manual_query",
     "field_database_editor_data_format": "",
     "field_datatypes": [
         {
@@ -110,7 +116,7 @@
     "field_display_key_name": "querybuilder",
     "field_editable_in_database_editor": false,
     "field_fullview": false,
-    "field_key_name": "dhq_query_builder_c31RHw7AUyfHtuiaiVR9",
+    "field_key_name": "dhq_query_builder_c70RrVxNeFiFwB9zgT4V",
     "field_options": {},
     "field_responsive": false,
     "field_type": "dhq_query_builder",
@@ -175,46 +181,15 @@
     "label_text_alignment": "left",
     "label_text_color": "var(--DHQ-primary-font-color)",
     "required": false,
-    "schema": [
-        {
-            "label": "Status",
-            "value": "status",
-            "enum": [
-                {
-                    "label": "Approved",
-                    "value": "approved"
-                },
-                {
-                    "label": "Rejected",
-                    "value": "rejected"
-                },
-                {
-                    "label": "Pending",
-                    "value": "pending"
-                }
-            ]
-        },
-        {
-            "label": "User Name",
-            "value": "username",
-            "type": "text"
-        },
-        {
-            "label": "Email",
-            "value": "email",
-            "type": "text"
-        },
-        {
-            "label": "Age",
-            "value": "age",
-            "type": "number"
-        }
-    ],
+    "sb_mode": {
+        "schema": "JS"
+    },
+    "schema": "",
     "show_description": false,
     "show_dfm": false,
     "show_new_property": true,
     "show_tooltip": false,
-    "sid": "sc31RHw7AUyfHtuiaiVR9",
+    "sid": "sc70RrVxNeFiFwB9zgT4V",
     "tabIndex": "",
     "theme_color": "var(--DHQ-primary-color)",
     "tip_description": "",

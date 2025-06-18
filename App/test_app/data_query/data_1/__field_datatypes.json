@@ -1,0 +1,26 @@
+[
+    {
+        "field": "label",
+        "display_name": "label",
+        "data_type": "string",
+        "field_database_editor_data_format": "single_line_text"
+    },
+    {
+        "field": "value",
+        "display_name": "value",
+        "data_type": "string",
+        "field_database_editor_data_format": "single_line_text"
+    },
+    {
+        "field": "enum",
+        "display_name": "enum",
+        "data_type": "array",
+        "field_database_editor_data_format": "single_line_text"
+    },
+    {
+        "field": "type",
+        "display_name": "type",
+        "data_type": "string",
+        "field_database_editor_data_format": "single_line_text"
+    }
+]
