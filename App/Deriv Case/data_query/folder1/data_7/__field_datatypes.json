@@ -1,0 +1,32 @@
+[
+    {
+        "field": "id",
+        "display_name": "id",
+        "data_type": "number",
+        "field_database_editor_data_format": "single_line_text"
+    },
+    {
+        "field": "name",
+        "display_name": "name",
+        "data_type": "string",
+        "field_database_editor_data_format": "single_line_text"
+    },
+    {
+        "field": "email",
+        "display_name": "email",
+        "data_type": "string",
+        "field_database_editor_data_format": "single_line_text"
+    },
+    {
+        "field": "role",
+        "display_name": "role",
+        "data_type": "string",
+        "field_database_editor_data_format": "single_line_text"
+    },
+    {
+        "field": "isActive",
+        "display_name": "isActive",
+        "data_type": "boolean",
+        "field_database_editor_data_format": "single_line_text"
+    }
+]

@@ -1,0 +1,19 @@
+{
+    "sequence": [
+        "Folder",
+        "Folder1",
+        "Folder2"
+    ],
+    "definition": {
+        "Folder": [
+            "c5RLlHvpq4LLItBXu1m",
+            "c102RD3HXDTww5AxK8fdi"
+        ],
+        "Folder1": [
+            "c257RLHoBdfQD1IMJp9r9"
+        ],
+        "Folder2": [
+            "c148R7fVpLgQjmbZmBkCK"
+        ]
+    }
+}
