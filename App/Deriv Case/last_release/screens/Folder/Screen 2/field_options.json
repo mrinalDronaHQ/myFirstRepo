@@ -4,7 +4,7 @@
     "modal_close_on_focusout": true,
     "left_page_header_enabled": true,
     "left_page_header_hidden_for": [],
-    "left_page_header_navigation_type": "dhq_app_exit",
+    "left_page_header_navigation_type": "no_action",
     "left_page_header_navigation_value": "",
     "left_page_header_click_navigation_transition": "1",
     "left_page_header_icon": "icon-arrow-left",
@@ -51,9 +51,7 @@
     },
     "main_config": {
         "ctrl_sv": 1.25,
-        "ctrl_su": "rem",
-        "gridMobileMaxHeight": 904.7249984741211,
-        "gridDesktopMaxHeight": 904.7249984741211
+        "ctrl_su": "rem"
     },
     "footer_config": {
         "ctrl_sv": 1.25,
