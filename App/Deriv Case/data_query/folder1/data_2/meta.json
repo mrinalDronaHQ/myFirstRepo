@@ -2,6 +2,7 @@
     "__dhq_formula_Dtype": "string",
     "__dhq_keywords_mapping_Dtype": "object",
     "allow_offline_submission": false,
+    "auto_evaluate": false,
     "created_at": 1753778908957,
     "datatype": "string",
     "defaultValue": "",
