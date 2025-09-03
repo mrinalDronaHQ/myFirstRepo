@@ -2,7 +2,6 @@
     "sequence": [
         "Folder",
         "MO V2_COMMON",
-        "MO V2/COMMONTWO",
         "BO V2/Common"
     ],
     "definition": {
@@ -13,12 +12,6 @@
         "MO V2_COMMON": [
             "c257RLHoBdfQD1IMJp9r9",
             "c694RRCy7i0paCFcQzMH4"
-        ],
-        "MO V2/COMMONTWO": [
-            "c148R7fVpLgQjmbZmBkCK",
-            "c161RPdLDLhT8ndwW33s3",
-            "c351R1ZnUQh8xhpCfI0Tc",
-            "c1267RG445JOcA2QbH2qqG"
         ]
     }
 }

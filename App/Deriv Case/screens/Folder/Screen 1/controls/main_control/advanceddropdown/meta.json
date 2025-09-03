@@ -73,14 +73,14 @@
         "w": 8,
         "h": 8,
         "x": 13,
-        "y": 58
+        "y": 57
     },
     "dhqGridChanged": false,
     "dhqGridDesktop": {
         "w": 8,
         "h": 8,
         "x": 13,
-        "y": 58
+        "y": 57
     },
     "disabled": false,
     "enable_ui_input": true,
