@@ -189,6 +189,7 @@
     "isDhqGridCtrl": true,
     "isDhqHideOnDesktop": false,
     "isDhqHideOnMobile": false,
+    "jumppagination": false,
     "label": "Advanced Dropdown",
     "label_font_size": "var(--DHQ-control-title)",
     "label_font_size_unit": "",
