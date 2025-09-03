@@ -1,0 +1,65 @@
+{
+    "name": "variable_RztbWCQevK5A3xUAz1756761686826",
+    "channel_id": "__REPLACE_CHANNEL_ID___",
+    "category_id": "__REPLACE_CAT_ID_100001___",
+    "sub_category_id": null,
+    "response": {
+        "success": true,
+        "contentType": "",
+        "content": [
+            {
+                "id": 1,
+                "name": "New York",
+                "country": "USA",
+                "population": 8419000
+            }
+        ],
+        "Headers": [],
+        "StatusCode": 200,
+        "StatusDescription": "Ok"
+    },
+    "failure": {
+        "Header": [],
+        "StatusCode": 0,
+        "StatusDescription": "",
+        "content": "",
+        "dynamic_variables": [],
+        "success": false
+    },
+    "failureCondition": [],
+    "proxy": false,
+    "preselectfields": [],
+    "preselectvariables": [],
+    "service_type": null,
+    "scheme_type": "db_connector",
+    "cat_format_id": "",
+    "includeBodyHash": false,
+    "dynamic_variables": null,
+    "instructions": null,
+    "request": {
+        "method": "DB_QUERY",
+        "body": {
+            "variables": [],
+            "mode": "db_query",
+            "queryEditor": "sql"
+        },
+        "header": [],
+        "url": {
+            "raw": "",
+            "protocol": "",
+            "query": [],
+            "param": []
+        },
+        "description": "",
+        "remove_empty_keys": false,
+        "skip_uri_component_encoding": false,
+        "request_timeout": 0
+    },
+    "usedInVariable": true,
+    "variableDisName": "query_1",
+    "is_deleted": 0,
+    "meta": "",
+    "isAppInternalSubcat": 1,
+    "bindable": true,
+    "resource_reference": "__REPLACE_RESOURCE_REFERENCE_ID__"
+}

@@ -1,0 +1,151 @@
+{
+    "event_name": "screen",
+    "selector": "",
+    "event_type": "open",
+    "actionflow_id": "af_c209RVmKz6odbchIE181t_screen_open",
+    "next_actions": [
+        "R5wYNsWrsWQnfHMN6"
+    ],
+    "prev_actions": [],
+    "actions": [
+        {
+            "id": "R5wYNsWrsWQnfHMN6",
+            "execution_editor_type": "JSEditor",
+            "execution_condition_variable_with_name": "",
+            "execution_condition_variable": "",
+            "execution_environments": [
+                "dev",
+                "beta",
+                "prod"
+            ],
+            "unique_name": "Triggerdataquery",
+            "label": "",
+            "fields": {
+                "name": {
+                    "key": "name",
+                    "value": "variable_RnrqKW6hAabqOTSLN1756761819723",
+                    "name": "js_script_1",
+                    "label": "Select Data Query\n   Select Data Query",
+                    "isField": false,
+                    "isPreselect": false,
+                    "fieldValueType": "manual",
+                    "data_type": "text",
+                    "isDynamic": false,
+                    "editor_type": "",
+                    "evaluateValue": true
+                },
+                "override_dynamic_vars": {
+                    "key": "override_dynamic_vars",
+                    "value": false,
+                    "name": "",
+                    "label": "Override Dynamic Variables",
+                    "isField": false,
+                    "isPreselect": false,
+                    "fieldValueType": "manual",
+                    "data_type": "boolean",
+                    "isDynamic": false,
+                    "editor_type": "",
+                    "evaluateValue": true
+                },
+                "custom_parameters": {
+                    "key": "custom_parameters",
+                    "value": "{}",
+                    "name": "{}",
+                    "label": "Custom parameters\n    Custom parameters",
+                    "isField": false,
+                    "isPreselect": false,
+                    "fieldValueType": "manual",
+                    "data_type": "object",
+                    "isDynamic": false,
+                    "editor_type": "JSEditor",
+                    "evaluateValue": true
+                },
+                "triggerDependencyDataQuery": {
+                    "key": "triggerDependencyDataQuery",
+                    "value": true,
+                    "name": "",
+                    "label": "Trigger Data Query Dependencies",
+                    "isField": false,
+                    "isPreselect": false,
+                    "fieldValueType": "manual",
+                    "data_type": "boolean",
+                    "isDynamic": false,
+                    "editor_type": "",
+                    "evaluateValue": true
+                }
+            },
+            "type": "TRIGGERDATAQUERY",
+            "outputs": [
+                {
+                    "key": "output",
+                    "value": "output",
+                    "isDefault": true
+                }
+            ],
+            "dual_output_action": true,
+            "wait_till_completion": true,
+            "offline_submission": false,
+            "downloadas_file": false,
+            "actions_on_positive": [
+                {
+                    "id": "RaiGXc0Nq3NswUM33",
+                    "execution_editor_type": "JSEditor",
+                    "execution_condition_variable_with_name": "",
+                    "execution_condition_variable": "",
+                    "execution_environments": [
+                        "dev",
+                        "beta",
+                        "prod"
+                    ],
+                    "unique_name": "Setctrlvalue",
+                    "label": "",
+                    "fields": {},
+                    "type": "SETCTRLVALUE",
+                    "outputs": [],
+                    "dual_output_action": false,
+                    "wait_till_completion": true,
+                    "offline_submission": false,
+                    "downloadas_file": false,
+                    "dynamic_fields": [
+                        {
+                            "dhqCtrlId": {
+                                "key": "dhqCtrlId",
+                                "isField": false,
+                                "isPreselect": false,
+                                "fieldValueType": "manual",
+                                "data_type": "string",
+                                "name": "tablegrid1",
+                                "value": "list_c308R0CqvpLC8LqW3x6FJ",
+                                "label": "Select Control\n   Select Control",
+                                "editor_type": "",
+                                "evaluateValue": true
+                            },
+                            "ctrlValue": {
+                                "key": "ctrlValue",
+                                "isField": false,
+                                "isPreselect": false,
+                                "fieldValueType": "manual",
+                                "data_type": "string",
+                                "name": "{{Triggerdataquery.output}}",
+                                "value": "{{R5wYNsWrsWQnfHMN6.output}}",
+                                "label": "Enter Control Value\n    Enter Control Value",
+                                "editor_type": "JSEditor",
+                                "evaluateValue": true
+                            }
+                        }
+                    ],
+                    "next_actions": [],
+                    "prev_actions": [
+                        "R5wYNsWrsWQnfHMN6"
+                    ]
+                }
+            ],
+            "actions_on_negative": [],
+            "next_actions": [],
+            "prev_actions": []
+        }
+    ],
+    "category": "",
+    "interval": "",
+    "action_label": ""
+}

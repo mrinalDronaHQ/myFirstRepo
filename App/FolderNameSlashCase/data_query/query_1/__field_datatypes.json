@@ -1,0 +1,26 @@
+[
+    {
+        "field": "id",
+        "display_name": "id",
+        "data_type": "string",
+        "field_database_editor_data_format": "single_line_text"
+    },
+    {
+        "field": "name",
+        "display_name": "name",
+        "data_type": "string",
+        "field_database_editor_data_format": "single_line_text"
+    },
+    {
+        "field": "country",
+        "display_name": "country",
+        "data_type": "string",
+        "field_database_editor_data_format": "single_line_text"
+    },
+    {
+        "field": "population",
+        "display_name": "population",
+        "data_type": "string",
+        "field_database_editor_data_format": "single_line_text"
+    }
+]

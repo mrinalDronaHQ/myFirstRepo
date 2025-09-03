@@ -1,0 +1,21 @@
+{
+    "cat_id": 100001,
+    "catName": "Test",
+    "catDesc": "",
+    "catIcon": "./Images/dblogos/postgres.png",
+    "schemeType": "db_connector",
+    "cat_created_on": null,
+    "cat_modify_on": null,
+    "cat_created_by": "",
+    "isGlobal": false,
+    "isEditable": true,
+    "isCatPublic": false,
+    "isInstalled": false,
+    "isCatEditable": true,
+    "showAddOption": true,
+    "cat_type": "postgres",
+    "format_id": "320c3c55-24c5-11f0-9706-0242ac160003",
+    "permission": "1000",
+    "multistep_auth_steps": {},
+    "channel_id": "2"
+}

@@ -1,0 +1,54 @@
+{
+    "api_name": "variable_RztbWCQevK5A3xUAz1756761686826",
+    "cat_id": "__REPLACE_CAT_ID_100001___",
+    "cat_name": "__REPLACE_CAT_NAME_100001___",
+    "sub_cat_name": "query_1",
+    "cat_icon_url": "./Images/dblogos/postgres.png",
+    "method": "db_query",
+    "query": {},
+    "param": {},
+    "header": {},
+    "body": {
+        "mode": "db_query",
+        "formdata": {},
+        "variables": {}
+    },
+    "auth": {},
+    "triggerOnPageload": false,
+    "autoTransform": false,
+    "execution_editor_type": "JSEditor",
+    "execution_condition_variable_with_name": "",
+    "execution_condition_variable": "",
+    "error_msg": "",
+    "scheme_type": "db_connector",
+    "filterObjectMapping": [],
+    "sanitizeResponseFlag": false,
+    "allow_offline_submission": false,
+    "download_as_file": false,
+    "secureResponse": false,
+    "rawResponse": [
+        {
+            "id": 1,
+            "name": "New York",
+            "country": "USA",
+            "population": 8419000
+        }
+    ],
+    "processedResp": {},
+    "paginationType": "none",
+    "offsetKeyPath": "",
+    "hasMoreKeyPath": "",
+    "misc": {},
+    "additionalKeywords": {},
+    "formatedSchema": {},
+    "bindedTo": "variable",
+    "createdVia": "variable",
+    "resource_reference": "__REPLACE_RESOURCE_REFERENCE_ID__",
+    "filterKeysOptions": {
+        "id": "1",
+        "name": "New York",
+        "country": "USA",
+        "population": "8419000"
+    },
+    "cat_type": "postgres"
+}
