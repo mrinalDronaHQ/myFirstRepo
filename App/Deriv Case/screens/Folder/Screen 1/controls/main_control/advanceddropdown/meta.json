@@ -214,6 +214,7 @@
     "paginationLocation": "top",
     "PaginationSide": "serversidepagination",
     "paginationType": "limitOffsetBased",
+    "parent_id": "",
     "post_color": "var(--DHQ-primary-font-color)",
     "post_font_size": "var(--DHQ-normal-font)",
     "post_font_size_unit": "",
