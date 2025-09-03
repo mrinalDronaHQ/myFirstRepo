@@ -226,6 +226,7 @@
     "menu_text_font_weight": "var(--DHQ-bold)",
     "menu_text_text_alignment": "left",
     "menu_text_text_color": "var(--DHQ-primary-font-color)",
+    "parent_id": "",
     "required": false,
     "selected_background_color": "var(--DHQ-primary-light-color)",
     "selected_icon_color": "var(--DHQ-primary-color)",

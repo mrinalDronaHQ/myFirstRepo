@@ -127,6 +127,7 @@
     "letter_spacing_unit": "px",
     "line_height": "var(--DHQ-line-height)",
     "line_height_unit": "",
+    "parent_id": "",
     "required": false,
     "show_description": false,
     "show_dfm": false,
