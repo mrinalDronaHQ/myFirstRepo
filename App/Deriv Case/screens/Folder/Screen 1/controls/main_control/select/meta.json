@@ -159,7 +159,6 @@
     "label_text_alignment": "left",
     "label_text_color": "var(--DHQ-primary-font-color)",
     "other_placeholder": "Write here...",
-    "parent_id": "",
     "radio_color": "var(--DHQ-primary-color)",
     "required": false,
     "sb_mode": {

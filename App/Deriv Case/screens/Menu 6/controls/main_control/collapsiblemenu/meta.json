@@ -166,7 +166,6 @@
     "menu_font_weight_hover": "var(--DHQ-bold)",
     "menu_text_color": "var(--DHQ-primary-font-color)",
     "menu_text_color_hover": "var(--DHQ-primary-font-color)",
-    "parent_id": "",
     "required": false,
     "sb_mode": "UI",
     "show_description": false,

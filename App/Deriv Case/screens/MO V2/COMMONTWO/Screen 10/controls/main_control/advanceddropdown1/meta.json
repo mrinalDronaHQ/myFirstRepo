@@ -7,7 +7,7 @@
     "allow_pagination": false,
     "border_color": "var(--DHQ-border-color)",
     "caching": false,
-    "cid": "c85R2tQv24iEQvIAeksm",
+    "cid": "c238RcnLtvNDeQ4kDQRpd",
     "class_name": "test",
     "clearoption": true,
     "color_column": "color",
@@ -54,15 +54,7 @@
         "data": {}
     },
     "dhq_nsf_replaced": false,
-    "dhq_olddt_map": {
-        "value": "value",
-        "name": "name",
-        "description": "description",
-        "color": "color",
-        "image": "image",
-        "prefix": "prefix",
-        "icon": "icon"
-    },
+    "dhq_olddt_map": {},
     "dhq_req_stats": {
         "status": ""
     },
@@ -72,15 +64,15 @@
     "dhqGrid": {
         "w": 8,
         "h": 8,
-        "x": 13,
-        "y": 58
+        "x": 7,
+        "y": 1
     },
     "dhqGridChanged": false,
     "dhqGridDesktop": {
         "w": 8,
         "h": 8,
-        "x": 13,
-        "y": 58
+        "x": 7,
+        "y": 1
     },
     "disabled": false,
     "enable_ui_input": true,
@@ -141,10 +133,10 @@
             "field_database_editor_data_format": "single_line_text"
         }
     ],
-    "field_display_key_name": "advanceddropdown",
+    "field_display_key_name": "advanceddropdown1",
     "field_editable_in_database_editor": false,
     "field_fullview": false,
-    "field_key_name": "dhq_advance_dropdown_c85R2tQv24iEQvIAeksm",
+    "field_key_name": "dhq_advance_dropdown_c238RcnLtvNDeQ4kDQRpd",
     "field_options": {},
     "field_responsive": false,
     "field_schema_column_header_names": [],
@@ -244,7 +236,7 @@
     "show_suffix": false,
     "show_tooltip": false,
     "showServerSidelSearch": false,
-    "sid": "sc85R2tQv24iEQvIAeksm",
+    "sid": "sc238RcnLtvNDeQ4kDQRpd",
     "startRow": 0,
     "suffix": "",
     "suffix_icon": "",

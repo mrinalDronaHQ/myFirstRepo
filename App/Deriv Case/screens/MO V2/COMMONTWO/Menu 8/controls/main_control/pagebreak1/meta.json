@@ -112,6 +112,7 @@
     "label_text_alignment": "left",
     "label_text_color": "var(--DHQ-primary-font-color)",
     "line_show": true,
+    "parent_id": "",
     "required": false,
     "separator_Color": "var(--DHQ-border-color)",
     "separator_height": 1.25,
