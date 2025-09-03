@@ -44,6 +44,7 @@
     "allowHiddenCols": true,
     "allowSchemaFormatting": true,
     "apply_custom_column_widths": false,
+    "auto_refresh": true,
     "bindAction1": false,
     "bindAction1ToColumn": "",
     "bindAction2": false,
@@ -603,6 +604,177 @@
         ],
         "concated_msgs": []
     },
+    "formattedSchema": [
+        {
+            "controlIconUrl": "app/src/images/controls/checkbox.svg",
+            "controlType": "Checkboxes",
+            "control_display_name": "Checkboxes",
+            "data_type": "list",
+            "field_available_in_database_editor": true,
+            "field_composition_type": "list",
+            "field_database_editor_format": "multi_select",
+            "field_editable_in_database_editor": true,
+            "field_type": "checkboxes",
+            "dynamic_dropdown_options": "",
+            "field_data_option_colors": {},
+            "text_align": "left",
+            "name": "teams",
+            "id": "teams"
+        },
+        {
+            "controlIconUrl": "app/src/images/controls/radio.svg",
+            "controlType": "Radio",
+            "control_display_name": "Radio",
+            "data_type": "string",
+            "field_available_in_database_editor": true,
+            "field_composition_type": "list",
+            "field_database_editor_format": "single_select",
+            "field_editable_in_database_editor": true,
+            "field_type": "radio",
+            "dynamic_dropdown_options": "",
+            "field_data_option_colors": {},
+            "text_align": "left",
+            "name": "role",
+            "id": "role"
+        },
+        {
+            "controlIconUrl": "app/src/images/controls/link.svg",
+            "controlType": "Url",
+            "control_display_name": "Url",
+            "data_type": "string",
+            "field_available_in_database_editor": true,
+            "field_composition_type": "single",
+            "field_database_editor_format": "url",
+            "field_editable_in_database_editor": true,
+            "field_type": "url",
+            "name": "email",
+            "id": "email"
+        },
+        {
+            "controlIconUrl": "app/src/images/controls/text.svg",
+            "controlType": "Text",
+            "control_display_name": "Text",
+            "data_type": "string",
+            "field_available_in_database_editor": true,
+            "field_composition_type": "single",
+            "field_database_editor_format": "single_line_text",
+            "field_editable_in_database_editor": true,
+            "field_type": "text",
+            "name": "name",
+            "id": "name",
+            "condition_formating": [
+                {
+                    "query": "",
+                    "bold": true,
+                    "italic": false,
+                    "underline": false,
+                    "strikethrough": false,
+                    "background": "#fff",
+                    "textcolor": "#000000",
+                    "text_alignment": "flex-start",
+                    "font_size": "14px",
+                    "icon_markup": "",
+                    "icon_color": "#000000",
+                    "query_obj": {
+                        "operator": "isNotEmpty",
+                        "value": "",
+                        "operand_column": "name"
+                    },
+                    "Formating_type": "single-color"
+                }
+            ]
+        },
+        {
+            "controlIconUrl": "app/src/images/controls/text.svg",
+            "controlType": "Text",
+            "control_display_name": "Text",
+            "data_type": "string",
+            "field_available_in_database_editor": true,
+            "field_composition_type": "single",
+            "field_database_editor_format": "single_line_text",
+            "field_editable_in_database_editor": true,
+            "field_type": "text",
+            "name": "status",
+            "id": "status",
+            "condition_formating": [
+                {
+                    "query": ".status = \"Active\"",
+                    "bold": false,
+                    "italic": false,
+                    "underline": false,
+                    "strikethrough": false,
+                    "background": "#00000000",
+                    "textcolor": "#0A9449",
+                    "text_alignment": "flex-start",
+                    "font_size": "14px",
+                    "icon_markup": "<i class=\"fas fa-toggle-on\" style=\"color: rgb(38, 188, 106);\"></i>",
+                    "icon_color": "#26BC6A",
+                    "query_obj": {
+                        "operator": "=",
+                        "value": "Active",
+                        "operand_column": "status"
+                    },
+                    "Formating_type": "single-color"
+                },
+                {
+                    "query": ".status = \"Inactive\"",
+                    "bold": false,
+                    "italic": false,
+                    "underline": false,
+                    "strikethrough": false,
+                    "background": "#FFFFFF",
+                    "textcolor": "#8B969C",
+                    "text_alignment": "flex-start",
+                    "font_size": "14px",
+                    "icon_markup": "<i class=\"fas fa-toggle-off\" style=\"color: rgb(155, 155, 155);\"></i>",
+                    "icon_color": "#9B9B9B",
+                    "query_obj": {
+                        "operator": "=",
+                        "value": "Inactive",
+                        "operand_column": "status"
+                    },
+                    "Formating_type": "single-color"
+                },
+                {
+                    "query": ".status = \"Pending\"",
+                    "bold": false,
+                    "italic": false,
+                    "underline": false,
+                    "strikethrough": false,
+                    "background": "#FFFFFF00",
+                    "textcolor": "#DF7000",
+                    "text_alignment": "flex-start",
+                    "font_size": "14px",
+                    "icon_markup": "<i class=\"far fa-clock\" style=\"color: rgb(255, 162, 0);\"></i>",
+                    "icon_color": "#FFA200",
+                    "query_obj": {
+                        "operator": "=",
+                        "value": "Pending",
+                        "operand_column": "status"
+                    },
+                    "Formating_type": "single-color"
+                }
+            ]
+        },
+        {
+            "controlIconUrl": "app/src/images/controls/time.svg",
+            "controlType": "DateTime",
+            "control_display_name": "DateTime",
+            "data_type": "date_time",
+            "field_available_in_database_editor": true,
+            "field_composition_type": "single",
+            "field_database_editor_format": "date_time",
+            "field_editable_in_database_editor": true,
+            "field_type": "dateandtimepicker",
+            "display_format": {
+                "date": "MMMM DD YYYY",
+                "time": "hh:mm A",
+                "isUtc": true
+            },
+            "name": "created_at",
+            "id": "created_at"
+        }
+    ],
     "formattedSchemaForRow": {
         "rowTheme": {}
     },
@@ -755,6 +927,7 @@
     "showAction4OnHover": false,
     "showAction5OnHover": false,
     "showActionOnHover": true,
+    "showaggregateforgroup": false,
     "showInHeaderAction1": true,
     "showInHeaderAction2": true,
     "showInHeaderAction3": true,
