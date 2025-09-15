@@ -67,10 +67,10 @@
     "ctrl_id": "",
     "cursorKey": "",
     "custom_column_widths": [
-        187,
-        244,
-        187,
-        187
+        168,
+        235,
+        235,
+        168
     ],
     "custom_column_widths_mapping": {},
     "custom_label_save_btn": "Save Changes",
@@ -208,9 +208,9 @@
             ],
             "display_name": "name"
         },
-        "color": {
+        "type": {
             "data_type": "string",
-            "display_name": "color",
+            "display_name": "type",
             "field_type": "text"
         },
         "price": {
@@ -387,8 +387,8 @@
             "field_database_editor_data_format": "single_line_text"
         },
         {
-            "field": "color",
-            "display_name": "color",
+            "field": "type",
+            "display_name": "type",
             "data_type": "string",
             "field_database_editor_data_format": "single_line_text"
         },
@@ -622,11 +622,11 @@
         ]
     },
     "field_responsive": false,
-    "field_schema_column_header_names": "id,name,color,price",
+    "field_schema_column_header_names": "id,name,type,price",
     "field_schema_column_id_header_name_mapping": {
         "id": "id",
         "name": "name",
-        "color": "color",
+        "type": "type",
         "price": "price"
     },
     "field_type": "list",
@@ -1021,9 +1021,9 @@
     "selectedRows": [
         {
             "id": 1,
-            "name": "Apple",
-            "color": "Red",
-            "price": "0.50"
+            "name": "Carrot",
+            "type": "Root",
+            "price": "0.75"
         }
     ],
     "selectionType": "singleselect",

@@ -1,5 +1,5 @@
 {
-    "name": "variable_REVFjKGz5Ix6SRGeK1757954051528",
+    "name": "variable_R05Tf4NISoJj9D4tw1757954622180",
     "channel_id": "__REPLACE_CHANNEL_ID___",
     "category_id": "__REPLACE_CAT_ID_100001___",
     "sub_category_id": null,
@@ -9,9 +9,9 @@
         "content": [
             {
                 "id": 1,
-                "name": "Apple",
-                "color": "Red",
-                "price": "0.50"
+                "name": "Carrot",
+                "type": "Root",
+                "price": "0.75"
             }
         ],
         "Headers": [],
@@ -41,17 +41,7 @@
         "body": {
             "variables": [],
             "mode": "db_query",
-            "queryEditor": "ui",
-            "uiJson": {
-                "action": "select",
-                "table": "fruits",
-                "columns": [
-                    "*"
-                ],
-                "where": [],
-                "orderBy": {},
-                "limit": null
-            }
+            "queryEditor": "sql"
         },
         "header": [],
         "url": {
@@ -66,7 +56,7 @@
         "request_timeout": 0
     },
     "usedInVariable": true,
-    "variableDisName": "query_2",
+    "variableDisName": "query_new",
     "is_deleted": 0,
     "meta": "",
     "isAppInternalSubcat": 1,

@@ -1,8 +1,8 @@
 {
-    "api_name": "variable_REVFjKGz5Ix6SRGeK1757954051528",
+    "api_name": "variable_R05Tf4NISoJj9D4tw1757954622180",
     "cat_id": "__REPLACE_CAT_ID_100001___",
     "cat_name": "__REPLACE_CAT_NAME_100001___",
-    "sub_cat_name": "query_2",
+    "sub_cat_name": "query_new",
     "cat_icon_url": "./Images/dblogos/postgres.png",
     "method": "db_query",
     "query": {},
@@ -25,13 +25,13 @@
     "sanitizeResponseFlag": false,
     "allow_offline_submission": false,
     "download_as_file": false,
-    "secureResponse": false,
+    "secureResponse": true,
     "rawResponse": [
         {
             "id": 1,
-            "name": "Apple",
-            "color": "Red",
-            "price": "0.50"
+            "name": "Carrot",
+            "type": "Root",
+            "price": "0.75"
         }
     ],
     "processedResp": {},
@@ -46,9 +46,9 @@
     "resource_reference": "__REPLACE_RESOURCE_REFERENCE_ID__",
     "filterKeysOptions": {
         "id": "1",
-        "name": "Apple",
-        "color": "Red",
-        "price": "0.50"
+        "name": "Carrot",
+        "type": "Root",
+        "price": "0.75"
     },
     "cat_type": "postgres"
 }
