@@ -14,29 +14,5 @@
     {
         "person_id": 4,
         "first_name": "Sophia"
-    },
-    {
-        "person_id": 5,
-        "first_name": "David"
-    },
-    {
-        "person_id": 6,
-        "first_name": "Emma"
-    },
-    {
-        "person_id": 7,
-        "first_name": "Daniel"
-    },
-    {
-        "person_id": 8,
-        "first_name": "Olivia"
-    },
-    {
-        "person_id": 9,
-        "first_name": "James"
-    },
-    {
-        "person_id": 10,
-        "first_name": "Ava"
     }
 ]
