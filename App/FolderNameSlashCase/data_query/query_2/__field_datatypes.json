@@ -1,0 +1,32 @@
+[
+    {
+        "field": "review_id",
+        "display_name": "review_id",
+        "data_type": "string",
+        "field_database_editor_data_format": "single_line_text"
+    },
+    {
+        "field": "id",
+        "display_name": "id",
+        "data_type": "string",
+        "field_database_editor_data_format": "single_line_text"
+    },
+    {
+        "field": "customer_name",
+        "display_name": "customer_name",
+        "data_type": "string",
+        "field_database_editor_data_format": "single_line_text"
+    },
+    {
+        "field": "rating",
+        "display_name": "rating",
+        "data_type": "string",
+        "field_database_editor_data_format": "single_line_text"
+    },
+    {
+        "field": "comment",
+        "display_name": "comment",
+        "data_type": "string",
+        "field_database_editor_data_format": "single_line_text"
+    }
+]

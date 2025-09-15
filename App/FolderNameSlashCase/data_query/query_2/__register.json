@@ -1,0 +1,56 @@
+{
+    "api_name": "variable_RAkPp7ypsCJJgkPYe1757956746420",
+    "cat_id": "__REPLACE_CAT_ID_100005___",
+    "cat_name": "__REPLACE_CAT_NAME_100005___",
+    "sub_cat_name": "query_2",
+    "cat_icon_url": "./Images/dblogos/mysql.png",
+    "method": "db_query",
+    "query": {},
+    "param": {},
+    "header": {},
+    "body": {
+        "mode": "db_query",
+        "formdata": {},
+        "variables": {}
+    },
+    "auth": {},
+    "triggerOnPageload": false,
+    "autoTransform": false,
+    "execution_editor_type": "JSEditor",
+    "execution_condition_variable_with_name": "",
+    "execution_condition_variable": "",
+    "error_msg": "",
+    "scheme_type": "db_connector",
+    "filterObjectMapping": [],
+    "sanitizeResponseFlag": false,
+    "allow_offline_submission": false,
+    "download_as_file": false,
+    "secureResponse": true,
+    "rawResponse": [
+        {
+            "review_id": 1,
+            "id": 1,
+            "customer_name": "Alice",
+            "rating": 5,
+            "comment": "Excellent moisturizer, very hydrating!"
+        }
+    ],
+    "processedResp": {},
+    "paginationType": "none",
+    "offsetKeyPath": "",
+    "hasMoreKeyPath": "",
+    "misc": {},
+    "additionalKeywords": {},
+    "formatedSchema": {},
+    "bindedTo": "variable",
+    "createdVia": "variable",
+    "resource_reference": "__REPLACE_RESOURCE_REFERENCE_ID__",
+    "filterKeysOptions": {
+        "review_id": "1",
+        "id": "1",
+        "customer_name": "Alice",
+        "rating": "5",
+        "comment": "Excellent moisturizer, very hydrating!"
+    },
+    "cat_type": "mysql"
+}
