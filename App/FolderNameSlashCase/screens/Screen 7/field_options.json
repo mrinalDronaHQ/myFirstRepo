@@ -52,8 +52,8 @@
     "main_config": {
         "ctrl_sv": 1.25,
         "ctrl_su": "rem",
-        "gridDesktopMaxHeight": 896.5999984741211,
-        "gridMobileMaxHeight": 896.5999984741211
+        "gridDesktopMaxHeight": "87.500rem",
+        "gridMobileMaxHeight": "87.500rem"
     },
     "footer_config": {
         "ctrl_sv": 1.25,

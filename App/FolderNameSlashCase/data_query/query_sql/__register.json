@@ -1,9 +1,9 @@
 {
-    "api_name": "variable_REVFjKGz5Ix6SRGeK1757954051528",
-    "cat_id": "__REPLACE_CAT_ID_100001___",
-    "cat_name": "__REPLACE_CAT_NAME_100001___",
-    "sub_cat_name": "query_2",
-    "cat_icon_url": "./Images/dblogos/postgres.png",
+    "api_name": "variable_RaA93f7yJDjfWG2Pc1757954999952",
+    "cat_id": "__REPLACE_CAT_ID_100005___",
+    "cat_name": "__REPLACE_CAT_NAME_100005___",
+    "sub_cat_name": "query_sql",
+    "cat_icon_url": "./Images/dblogos/mysql.png",
     "method": "db_query",
     "query": {},
     "param": {},
@@ -25,13 +25,11 @@
     "sanitizeResponseFlag": false,
     "allow_offline_submission": false,
     "download_as_file": false,
-    "secureResponse": false,
+    "secureResponse": true,
     "rawResponse": [
         {
-            "id": 1,
-            "name": "Apple",
-            "color": "Red",
-            "price": "0.50"
+            "person_id": 1,
+            "first_name": "John"
         }
     ],
     "processedResp": {},
@@ -45,10 +43,8 @@
     "createdVia": "variable",
     "resource_reference": "__REPLACE_RESOURCE_REFERENCE_ID__",
     "filterKeysOptions": {
-        "id": "1",
-        "name": "Apple",
-        "color": "Red",
-        "price": "0.50"
+        "person_id": "1",
+        "first_name": "John"
     },
-    "cat_type": "postgres"
+    "cat_type": "mysql"
 }

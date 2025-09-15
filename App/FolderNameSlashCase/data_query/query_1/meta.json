@@ -6,9 +6,7 @@
     "created_at": 1756761686826,
     "datatype": "composite_list",
     "defaultValue": "",
-    "dhq_req_stats": {
-        "status": "resolved"
-    },
+    "dhq_req_stats": {},
     "dhq_set_value_via_action": false,
     "display_name": "query_1",
     "download_as_file": false,

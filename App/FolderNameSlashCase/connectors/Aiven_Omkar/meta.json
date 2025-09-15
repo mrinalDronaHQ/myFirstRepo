@@ -1,0 +1,21 @@
+{
+    "cat_id": 100005,
+    "catName": "Aiven_Omkar",
+    "catDesc": "",
+    "catIcon": "./Images/dblogos/mysql.png",
+    "schemeType": "db_connector",
+    "cat_created_on": null,
+    "cat_modify_on": null,
+    "cat_created_by": "",
+    "isGlobal": false,
+    "isEditable": true,
+    "isCatPublic": false,
+    "isInstalled": false,
+    "isCatEditable": true,
+    "showAddOption": true,
+    "cat_type": "mysql",
+    "format_id": "f3048d38-5b24-11f0-b616-0242ac120002",
+    "permission": "1000",
+    "multistep_auth_steps": {},
+    "channel_id": "2"
+}
