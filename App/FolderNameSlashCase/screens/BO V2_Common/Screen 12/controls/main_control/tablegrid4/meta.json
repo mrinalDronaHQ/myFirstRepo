@@ -58,7 +58,7 @@
     "button_type": "dhq_navigate",
     "caching": false,
     "changeRowSize": false,
-    "cid": "c750RQcUvufEjuXa9bxnm",
+    "cid": "c1543RJNKUtx0jHLWIXktT",
     "class_name": "test",
     "columnVisible": 0,
     "colwidth": 120,
@@ -146,14 +146,14 @@
         "w": 16,
         "h": 47,
         "x": 5,
-        "y": 60
+        "y": 9
     },
     "dhqGridChanged": false,
     "dhqGridDesktop": {
         "w": 16,
         "h": 47,
         "x": 5,
-        "y": 60
+        "y": 9
     },
     "disabled": false,
     "display_map": false,
@@ -399,10 +399,10 @@
             "field_database_editor_data_format": "single_line_text"
         }
     ],
-    "field_display_key_name": "tablegrid3",
+    "field_display_key_name": "tablegrid4",
     "field_editable_in_database_editor": false,
     "field_fullview": false,
-    "field_key_name": "list_c750RQcUvufEjuXa9bxnm",
+    "field_key_name": "list_c1543RJNKUtx0jHLWIXktT",
     "field_options": {
         "options": [
             {
@@ -1010,7 +1010,7 @@
     "required": false,
     "row_even_color": "var(--DHQ-neutral-bg-color)",
     "row_odd_color": "var(--DHQ-neutral-bg-color)",
-    "rowsVisible": 9,
+    "rowsVisible": 7,
     "sb_mode": "JS",
     "search_show": true,
     "searchBarMinWidth": 200,
@@ -1060,7 +1060,7 @@
     "showInHeaderAction5": true,
     "showRefreshAnimation": true,
     "showServerSidelSearch": false,
-    "sid": "sc750RQcUvufEjuXa9bxnm",
+    "sid": "sc1543RJNKUtx0jHLWIXktT",
     "single_select": false,
     "sort_select": false,
     "sortquery": false,
