@@ -5,7 +5,7 @@
     "attached_header": "none",
     "undefined": "",
     "field_type": "page",
-    "page_no": null,
+    "page_no": 0,
     "page_icon": "EMPTY",
     "open_from": "right",
     "tray_outside_click": true,
@@ -27,5 +27,5 @@
     "event_items": {},
     "dhqEvtConverted": true,
     "id": "c12Rk8m6xV9zKuJjvI3U",
-    "orderIndex": 0
+    "orderIndex": 2
 }
