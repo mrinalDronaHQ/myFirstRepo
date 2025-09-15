@@ -1,17 +1,15 @@
 {
-    "name": "variable_REVFjKGz5Ix6SRGeK1757954051528",
+    "name": "variable_RaA93f7yJDjfWG2Pc1757954999952",
     "channel_id": "__REPLACE_CHANNEL_ID___",
-    "category_id": "__REPLACE_CAT_ID_100001___",
+    "category_id": "__REPLACE_CAT_ID_100005___",
     "sub_category_id": null,
     "response": {
         "success": true,
         "contentType": "",
         "content": [
             {
-                "id": 1,
-                "name": "Apple",
-                "color": "Red",
-                "price": "0.50"
+                "person_id": 1,
+                "first_name": "John"
             }
         ],
         "Headers": [],
@@ -41,17 +39,7 @@
         "body": {
             "variables": [],
             "mode": "db_query",
-            "queryEditor": "ui",
-            "uiJson": {
-                "action": "select",
-                "table": "fruits",
-                "columns": [
-                    "*"
-                ],
-                "where": [],
-                "orderBy": {},
-                "limit": null
-            }
+            "queryEditor": "sql"
         },
         "header": [],
         "url": {
@@ -66,7 +54,7 @@
         "request_timeout": 0
     },
     "usedInVariable": true,
-    "variableDisName": "query_2",
+    "variableDisName": "query_sql",
     "is_deleted": 0,
     "meta": "",
     "isAppInternalSubcat": 1,

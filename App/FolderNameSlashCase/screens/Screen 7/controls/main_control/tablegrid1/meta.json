@@ -2,7 +2,7 @@
     "__dhq_default_formula_Dtype": "string",
     "__dhq_formula_Dtype": "string",
     "__dhq_keywords_mapping_Dtype": "object",
-    "__LiveData_Dtype": "string",
+    "__LiveData_Dtype": "object",
     "accordionProperty": "all_open",
     "action1HeaderText": "Action",
     "action1index": 0,
@@ -67,15 +67,8 @@
     "ctrl_id": "",
     "cursorKey": "",
     "custom_column_widths": [
-        76,
-        143,
-        230,
-        94,
-        84,
-        185,
-        232,
-        289,
-        76
+        391,
+        416
     ],
     "custom_column_widths_mapping": {},
     "custom_label_save_btn": "Save Changes",
@@ -172,7 +165,193 @@
             }
         ]
     },
-    "dummySchema": {},
+    "dummySchema": {
+        "person_id": {
+            "data_type": "number",
+            "display_name": "person_id",
+            "field_type": "number"
+        },
+        "first_name": {
+            "data_type": "string",
+            "display_name": "first_name",
+            "field_type": "text"
+        },
+        "teams": {
+            "controlIconUrl": "app/src/images/controls/checkbox.svg",
+            "controlType": "Checkboxes",
+            "control_display_name": "Checkboxes",
+            "data_type": "list",
+            "field_available_in_database_editor": true,
+            "field_composition_type": "list",
+            "field_database_editor_format": "multi_select",
+            "field_editable_in_database_editor": true,
+            "field_type": "checkboxes",
+            "dynamic_dropdown_options": "",
+            "field_data_option_colors": {},
+            "text_align": "left",
+            "name": "teams",
+            "id": "teams",
+            "display_name": "teams"
+        },
+        "role": {
+            "controlIconUrl": "app/src/images/controls/radio.svg",
+            "controlType": "Radio",
+            "control_display_name": "Radio",
+            "data_type": "string",
+            "field_available_in_database_editor": true,
+            "field_composition_type": "list",
+            "field_database_editor_format": "single_select",
+            "field_editable_in_database_editor": true,
+            "field_type": "radio",
+            "dynamic_dropdown_options": "",
+            "field_data_option_colors": {},
+            "text_align": "left",
+            "name": "role",
+            "id": "role",
+            "display_name": "role"
+        },
+        "email": {
+            "controlIconUrl": "app/src/images/controls/link.svg",
+            "controlType": "Url",
+            "control_display_name": "Url",
+            "data_type": "string",
+            "field_available_in_database_editor": true,
+            "field_composition_type": "single",
+            "field_database_editor_format": "url",
+            "field_editable_in_database_editor": true,
+            "field_type": "url",
+            "name": "email",
+            "id": "email",
+            "display_name": "email"
+        },
+        "name": {
+            "controlIconUrl": "app/src/images/controls/text.svg",
+            "controlType": "Text",
+            "control_display_name": "Text",
+            "data_type": "string",
+            "field_available_in_database_editor": true,
+            "field_composition_type": "single",
+            "field_database_editor_format": "single_line_text",
+            "field_editable_in_database_editor": true,
+            "field_type": "text",
+            "name": "name",
+            "id": "name",
+            "condition_formating": [
+                {
+                    "query": "",
+                    "bold": true,
+                    "italic": false,
+                    "underline": false,
+                    "strikethrough": false,
+                    "background": "#fff",
+                    "textcolor": "#000000",
+                    "text_alignment": "flex-start",
+                    "font_size": "14px",
+                    "icon_markup": "",
+                    "icon_color": "#000000",
+                    "query_obj": {
+                        "operator": "isNotEmpty",
+                        "value": "",
+                        "operand_column": "name"
+                    },
+                    "Formating_type": "single-color"
+                }
+            ],
+            "display_name": "name"
+        },
+        "status": {
+            "controlIconUrl": "app/src/images/controls/text.svg",
+            "controlType": "Text",
+            "control_display_name": "Text",
+            "data_type": "string",
+            "field_available_in_database_editor": true,
+            "field_composition_type": "single",
+            "field_database_editor_format": "single_line_text",
+            "field_editable_in_database_editor": true,
+            "field_type": "text",
+            "name": "status",
+            "id": "status",
+            "condition_formating": [
+                {
+                    "query": ".status = \"Active\"",
+                    "bold": false,
+                    "italic": false,
+                    "underline": false,
+                    "strikethrough": false,
+                    "background": "#00000000",
+                    "textcolor": "#0A9449",
+                    "text_alignment": "flex-start",
+                    "font_size": "14px",
+                    "icon_markup": "<i class=\"fas fa-toggle-on\" style=\"color: rgb(38, 188, 106);\"></i>",
+                    "icon_color": "#26BC6A",
+                    "query_obj": {
+                        "operator": "=",
+                        "value": "Active",
+                        "operand_column": "status"
+                    },
+                    "Formating_type": "single-color"
+                },
+                {
+                    "query": ".status = \"Inactive\"",
+                    "bold": false,
+                    "italic": false,
+                    "underline": false,
+                    "strikethrough": false,
+                    "background": "#FFFFFF",
+                    "textcolor": "#8B969C",
+                    "text_alignment": "flex-start",
+                    "font_size": "14px",
+                    "icon_markup": "<i class=\"fas fa-toggle-off\" style=\"color: rgb(155, 155, 155);\"></i>",
+                    "icon_color": "#9B9B9B",
+                    "query_obj": {
+                        "operator": "=",
+                        "value": "Inactive",
+                        "operand_column": "status"
+                    },
+                    "Formating_type": "single-color"
+                },
+                {
+                    "query": ".status = \"Pending\"",
+                    "bold": false,
+                    "italic": false,
+                    "underline": false,
+                    "strikethrough": false,
+                    "background": "#FFFFFF00",
+                    "textcolor": "#DF7000",
+                    "text_alignment": "flex-start",
+                    "font_size": "14px",
+                    "icon_markup": "<i class=\"far fa-clock\" style=\"color: rgb(255, 162, 0);\"></i>",
+                    "icon_color": "#FFA200",
+                    "query_obj": {
+                        "operator": "=",
+                        "value": "Pending",
+                        "operand_column": "status"
+                    },
+                    "Formating_type": "single-color"
+                }
+            ],
+            "display_name": "status"
+        },
+        "created_at": {
+            "controlIconUrl": "app/src/images/controls/time.svg",
+            "controlType": "DateTime",
+            "control_display_name": "DateTime",
+            "data_type": "date_time",
+            "field_available_in_database_editor": true,
+            "field_composition_type": "single",
+            "field_database_editor_format": "date_time",
+            "field_editable_in_database_editor": true,
+            "field_type": "dateandtimepicker",
+            "display_format": {
+                "date": "MMMM DD YYYY",
+                "time": "hh:mm A",
+                "isUtc": true
+            },
+            "name": "created_at",
+            "id": "created_at",
+            "display_name": "created_at"
+        }
+    },
     "editable_cols": [],
     "endRow": 0,
     "field_available_in_database_editor": false,
@@ -183,11 +362,24 @@
     "field_data_model_binding_default_value_query": "",
     "field_data_model_binding_default_value_query_with_id": "",
     "field_data_model_binding_formula": "",
-    "field_data_model_binding_manual_query": "",
-    "field_data_model_binding_manual_query_with_id": "",
+    "field_data_model_binding_manual_query": "DATABUILDER()",
+    "field_data_model_binding_manual_query_with_id": "DATABUILDER()",
     "field_data_model_binding_type": "manual_query",
     "field_database_editor_data_format": "single_select",
-    "field_datatypes": [],
+    "field_datatypes": [
+        {
+            "field": "person_id",
+            "display_name": "person_id",
+            "data_type": "number",
+            "field_database_editor_data_format": "single_line_text"
+        },
+        {
+            "field": "first_name",
+            "display_name": "first_name",
+            "data_type": "string",
+            "field_database_editor_data_format": "single_line_text"
+        }
+    ],
     "field_display_key_name": "tablegrid1",
     "field_editable_in_database_editor": false,
     "field_fullview": false,
@@ -411,8 +603,11 @@
         ]
     },
     "field_responsive": false,
-    "field_schema_column_header_names": "",
-    "field_schema_column_id_header_name_mapping": {},
+    "field_schema_column_header_names": "person_id,first_name",
+    "field_schema_column_id_header_name_mapping": {
+        "person_id": "person_id",
+        "first_name": "first_name"
+    },
     "field_type": "list",
     "field_values_addition_enabled_in_database_editor": true,
     "field_values_source": "field_options.options",
@@ -784,7 +979,6 @@
     "paginationLocation": "bottom",
     "PaginationSide": "serversidepagination",
     "paginationType": "limitOffsetBased",
-    "parent_id": "",
     "persist_filters": true,
     "persistantsorting": false,
     "placeholder": "Search",
@@ -795,7 +989,7 @@
     "required": false,
     "row_even_color": "var(--DHQ-neutral-bg-color)",
     "row_odd_color": "var(--DHQ-neutral-bg-color)",
-    "rowsVisible": 9,
+    "rowsVisible": 7,
     "sb_mode": "JS",
     "search_show": true,
     "searchBarMinWidth": 200,
@@ -804,7 +998,10 @@
     "selectAllRows": false,
     "selectedRowBg": "var(--DHQ-primary-light-color)",
     "selectedRows": [
-        null
+        {
+            "person_id": 1,
+            "first_name": "John"
+        }
     ],
     "selectionType": "singleselect",
     "show_add": false,

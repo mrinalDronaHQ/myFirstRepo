@@ -1,0 +1,14 @@
+[
+    {
+        "field": "person_id",
+        "display_name": "person_id",
+        "data_type": "string",
+        "field_database_editor_data_format": "single_line_text"
+    },
+    {
+        "field": "first_name",
+        "display_name": "first_name",
+        "data_type": "string",
+        "field_database_editor_data_format": "single_line_text"
+    }
+]
