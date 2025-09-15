@@ -5,28 +5,28 @@
     "FAILURE_CODE": "",
     "FAILURE_MESSAGE": "",
     "TIMESTAMP": {
-        "request_arrival": 1757955044265,
-        "request_validation": 1757955044266,
-        "query_preparation": 1757955044302,
-        "query_execution": 1757955044322,
-        "post_processing": 1757955044850,
-        "response": 1757955044850,
-        "transfer_data_arrival": 1757955044994,
-        "dataquery_preparation_arrival": 1757955044391,
-        "transform_response_arrival": 1757955044997,
-        "binding_post_processing_arrival": 1757955044998
+        "request_arrival": 1757956060980,
+        "request_validation": 1757956060980,
+        "query_preparation": 1757956061117,
+        "query_execution": 1757956061130,
+        "post_processing": 1757956061769,
+        "response": 1757956061769,
+        "transfer_data_arrival": 1757956061134,
+        "dataquery_preparation_arrival": 1757956060338,
+        "transform_response_arrival": 1757956061136,
+        "binding_post_processing_arrival": 1757956061137
     },
     "DURATION": {
-        "turn_around": 585,
-        "authentication": 1,
-        "validation": 36,
-        "preparation": 20,
-        "execution": 528,
+        "turn_around": 789,
+        "authentication": 0,
+        "validation": 137,
+        "preparation": 13,
+        "execution": 639,
         "processing": 0,
-        "transfer_data": 16,
-        "prepare_data_query": 2,
+        "transfer_data": 6,
+        "prepare_data_query": 1,
         "transform_response": 1,
         "post_processing": 1
     },
-    "RESPONSE_SIZE": 393
+    "RESPONSE_SIZE": 171
 }

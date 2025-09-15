@@ -67,8 +67,8 @@
     "ctrl_id": "",
     "cursorKey": "",
     "custom_column_widths": [
-        391,
-        416
+        444,
+        472
     ],
     "custom_column_widths_mapping": {},
     "custom_label_save_btn": "Save Changes",
@@ -133,7 +133,10 @@
         "data": {}
     },
     "dhq_nsf_replaced": false,
-    "dhq_olddt_map": {},
+    "dhq_olddt_map": {
+        "person_id": "person_id",
+        "first_name": "first_name"
+    },
     "dhq_req_stats": {
         "status": ""
     },

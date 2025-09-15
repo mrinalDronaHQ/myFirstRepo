@@ -39,7 +39,23 @@
         "body": {
             "variables": [],
             "mode": "db_query",
-            "queryEditor": "sql"
+            "queryEditor": "ui",
+            "uiJson": {
+                "action": "select",
+                "table": "Persons",
+                "columns": [
+                    "*"
+                ],
+                "where": [
+                    {
+                        "column": "person_id",
+                        "operator": "<",
+                        "value": "5"
+                    }
+                ],
+                "orderBy": {},
+                "limit": null
+            }
         },
         "header": [],
         "url": {

@@ -1,1 +1,1 @@
-select * from Persons
+SELECT * FROM Persons WHERE person_id < '5'
