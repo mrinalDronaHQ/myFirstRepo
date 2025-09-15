@@ -6,7 +6,7 @@
     "undefined": "",
     "field_type": "page",
     "page_no": 11,
-    "page_icon": "Empty",
+    "page_icon": "Visual",
     "open_from": "right",
     "tray_outside_click": true,
     "enable_overflow_popup": false,
@@ -28,5 +28,5 @@
     "dhqEvtConverted": true,
     "isGridView": true,
     "id": "c1008R8QMjjONgxXGsA0Ot",
-    "orderIndex": 10
+    "orderIndex": 8
 }
