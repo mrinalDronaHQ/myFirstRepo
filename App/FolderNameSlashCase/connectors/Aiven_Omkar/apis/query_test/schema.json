@@ -1,0 +1,59 @@
+{
+    "category_id": 100005,
+    "channel_id": 2,
+    "sub_category_id": 100025,
+    "bindable": true,
+    "display_name": "",
+    "failure": {
+        "Header": [],
+        "StatusCode": 0,
+        "StatusDescription": "",
+        "content": "",
+        "success": false
+    },
+    "failureCondition": [],
+    "name": "query_test",
+    "plugin_id": 0,
+    "preselectfields": [],
+    "preselectvariables": [],
+    "proxy": false,
+    "request": {
+        "method": "DB_QUERY",
+        "body": {
+            "raw": "select * from Surnames",
+            "variables": [],
+            "mode": "db_query",
+            "queryEditor": ""
+        },
+        "header": [],
+        "url": {
+            "raw": "",
+            "protocol": "",
+            "query": [],
+            "param": []
+        },
+        "account_id": "",
+        "description": "",
+        "remove_empty_keys": false,
+        "skip_uri_component_encoding": false,
+        "request_timeout": 0
+    },
+    "response": {
+        "success": "true",
+        "content": {
+            "result": {
+                "rows": [
+                    {
+                        "surname_id": 1,
+                        "person_id": 1,
+                        "surname": "string"
+                    }
+                ]
+            }
+        },
+        "ContentType": "application/json; charset=utf-8",
+        "StatusCode": 200,
+        "StatusDescription": "OK"
+    },
+    "is_deleted": 0
+}

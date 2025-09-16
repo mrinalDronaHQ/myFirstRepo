@@ -1,0 +1,20 @@
+[
+    {
+        "field": "surname_id",
+        "display_name": "surname_id",
+        "data_type": "string",
+        "field_database_editor_data_format": "single_line_text"
+    },
+    {
+        "field": "person_id",
+        "display_name": "person_id",
+        "data_type": "string",
+        "field_database_editor_data_format": "single_line_text"
+    },
+    {
+        "field": "surname",
+        "display_name": "surname",
+        "data_type": "string",
+        "field_database_editor_data_format": "single_line_text"
+    }
+]
