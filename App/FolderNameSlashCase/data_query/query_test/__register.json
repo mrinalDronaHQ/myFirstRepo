@@ -1,0 +1,52 @@
+{
+    "api_id": 1,
+    "api_name": "variable_Rx30hKPoqvIS6lbHC1758013637164",
+    "cat_id": "__REPLACE_CAT_ID_100005___",
+    "cat_name": "__REPLACE_CAT_NAME_100005___",
+    "sub_cat_id": "__REPLACE_SUB_CAT_ID_100025___",
+    "sub_cat_name": "__REPLACE_SUB_CAT_NAME_100025___",
+    "cat_icon_url": "./Images/dblogos/mysql.png",
+    "method": "db_query",
+    "query": {},
+    "param": {},
+    "header": {},
+    "body": {
+        "mode": "db_query",
+        "formdata": {},
+        "variables": {}
+    },
+    "auth": {},
+    "triggerOnPageload": false,
+    "execution_editor_type": "JSEditor",
+    "execution_condition_variable_with_name": "",
+    "execution_condition_variable": "",
+    "error_msg": "",
+    "filterKeysOptions": {
+        "surname_id": "1",
+        "person_id": "1",
+        "surname": "Smith"
+    },
+    "scheme_type": "db_connector",
+    "filterObjectMapping": [],
+    "sanitizeResponseFlag": false,
+    "allow_offline_submission": false,
+    "download_as_file": false,
+    "secureResponse": true,
+    "rawResponse": [
+        {
+            "surname_id": 0,
+            "person_id": 0,
+            "surname": ""
+        }
+    ],
+    "processedResp": {},
+    "paginationType": "none",
+    "offsetKeyPath": "",
+    "hasMoreKeyPath": "",
+    "misc": {},
+    "additionalKeywords": {},
+    "formatedSchema": {},
+    "bindedTo": "variable",
+    "autoTransform": false,
+    "cat_type": "mysql"
+}
