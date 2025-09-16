@@ -45,12 +45,6 @@
     "bindedTo": "variable",
     "createdVia": "variable",
     "resource_reference": "__REPLACE_RESOURCE_REFERENCE_ID__",
-    "filterKeysOptions": {
-        "review_id": "1",
-        "id": "1",
-        "customer_name": "Alice",
-        "rating": "5",
-        "comment": "Excellent moisturizer, very hydrating!"
-    },
+    "filterKeysOptions": {},
     "cat_type": "mysql"
 }

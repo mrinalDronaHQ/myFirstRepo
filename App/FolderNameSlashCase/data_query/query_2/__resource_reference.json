@@ -42,17 +42,7 @@
         "body": {
             "variables": [],
             "mode": "db_query",
-            "queryEditor": "ui",
-            "uiJson": {
-                "action": "select",
-                "table": "product_reviews",
-                "columns": [
-                    "*"
-                ],
-                "where": [],
-                "orderBy": {},
-                "limit": null
-            }
+            "queryEditor": "sql"
         },
         "header": [],
         "url": {

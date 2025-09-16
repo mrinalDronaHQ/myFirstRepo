@@ -1,44 +1,42 @@
 [
     {
-        "review_id": 1,
-        "id": 1,
-        "customer_name": "Alice",
-        "rating": 5,
-        "comment": "Excellent moisturizer, very hydrating!"
+        "person_id": 0,
+        "first_name": ""
     },
     {
-        "review_id": 2,
-        "id": 2,
-        "customer_name": "Bob",
-        "rating": 4,
-        "comment": "Nice color but a bit dry."
+        "person_id": 0,
+        "first_name": ""
     },
     {
-        "review_id": 3,
-        "id": 3,
-        "customer_name": "Cathy",
-        "rating": 3,
-        "comment": "Adds volume but smudges easily."
+        "person_id": 0,
+        "first_name": ""
     },
     {
-        "review_id": 4,
-        "id": 5,
-        "customer_name": "David",
-        "rating": 5,
-        "comment": "Skin feels brighter and smoother."
+        "person_id": 0,
+        "first_name": ""
     },
     {
-        "review_id": 5,
-        "id": 8,
-        "customer_name": "Eva",
-        "rating": 4,
-        "comment": "Stays on all day, great eyeliner!"
+        "person_id": 0,
+        "first_name": ""
     },
     {
-        "review_id": 6,
-        "id": 9,
-        "customer_name": "Fiona",
-        "rating": 5,
-        "comment": "Smells great and very soothing."
+        "person_id": 0,
+        "first_name": ""
+    },
+    {
+        "person_id": 0,
+        "first_name": ""
+    },
+    {
+        "person_id": 0,
+        "first_name": ""
+    },
+    {
+        "person_id": 0,
+        "first_name": ""
+    },
+    {
+        "person_id": 0,
+        "first_name": ""
     }
 ]
