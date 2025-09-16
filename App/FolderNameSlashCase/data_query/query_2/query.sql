@@ -1,1 +1,1 @@
-SELECT * FROM product_reviews
+select * from Persons 
